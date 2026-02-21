@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Tracker | PH-JS-Mini-PJ</title>
+
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F8FAFC]">
+
+    <!-- Header section -->
+    <header class="w-[80%] mx-auto">
+        <h1 class="text-2xl font-bold text-[#002C5C] pt-6 pb-4">Job Application Tracker</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-white  p-4 rounded-lg shadow space-y-1">
+                <p class="text-sm text-[#323B49] font-medium">Total</p>
+                <p id="total" class="text-2xl text-[#002C5C] font-bold">0</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow space-y-1">
+                <p id="thrive" class="text-sm text-[#323B49] font-medium">Thriving</p>
+                <p id="thrivingCount" class="text-2xl text-green-600 font-bold">0</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow space-y-1">
+                <p class="text-sm text-[#323B49] font-medium">Struggling</p>
+                <p id="strugglingCount" class="text-2xl text-red-600 font-bold">0</p>
+            </div>
+        </div>
+    </header>
+
+    
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
