@@ -41,3 +41,12 @@ mainly when bubbling happenes, it just jumps to the parent element and so on unt
 ```
 
 
+### 4. What is Event Delegation in JavaScript? Why is it useful?
+```js
+• Event delegation is also a js concept that allows to handle events efficiently by attaching a single event listener to a parent element
+instead of multiple listeners to individual child elements.
+Like if we have a list of items and we want if i click on any item then
+it some action will happen then instead of attaching event listenet to each item we set event listener to the parent
+```
+
+
