@@ -1,6 +1,6 @@
 # PH-ASSIGNMENT-04
 
-### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+## 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 ```js
 • Genarally, these 4 methods are do same work to select any element from html document
 but these are used in different types of selection. 
@@ -22,7 +22,7 @@ Mainly we use it for multiple selection.
 ```
 
 
-### 2. How do you create and insert a new element into the DOM?
+## 2. How do you create and insert a new element into the DOM?
 ```js
 • For creating a new element using js we use document.createElement() method
 it create a element in html and for inserting that element we use appendChild(), preprend() etc
@@ -30,7 +30,7 @@ basically these methods are used to insert the element in the html document.
 ```
 
 
-### 3. What is Event Bubbling? And how does it work?
+## 3. What is Event Bubbling? And how does it work?
 ```js
 • Event bubbling is a concept in javascript when we add an event listener any element,
 first runs even capturing phase, than event start event bubbling phase.
@@ -41,7 +41,7 @@ mainly when bubbling happenes, it just jumps to the parent element and so on unt
 ```
 
 
-### 4. What is Event Delegation in JavaScript? Why is it useful?
+## 4. What is Event Delegation in JavaScript? Why is it useful?
 ```js
 • Event delegation is also a js concept that allows to handle events efficiently by attaching a single event listener to a parent element
 instead of multiple listeners to individual child elements.
@@ -50,7 +50,7 @@ it some action will happen then instead of attaching event listenet to each item
 ```
 
 
-### 5. What is the difference between preventDefault() and stopPropagation() methods?
+## 5. What is the difference between preventDefault() and stopPropagation() methods?
 ```js
 • preventDefault() is used to stop the default behavior of an event,
 like if we have a form and we add an event listener on form event is submit by default
