@@ -50,3 +50,19 @@ it some action will happen then instead of attaching event listenet to each item
 ```
 
 
+### 5. What is the difference between preventDefault() and stopPropagation() methods?
+```js
+• preventDefault() is used to stop the default behavior of an event,
+like if we have a form and we add an event listener on form event is submit by default
+it will refresh the page if page is refresh then we will not access the form data
+that user entered in form so in that case we use preventDefault() method to stop
+the default behavior of form submit event and we can access the form data that user entered in form.
+
+• stopPropagation() is used to stop the bubbling phase
+that happens when an event is triggered on an element sometimes
+we have need to stop the event bubbling to parent elements
+because we want to handle just the target element that time we use stopPropagation() method
+to stop the event bubbling to parent elements and we can handle just the target element.
+```
+
+
