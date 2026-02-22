@@ -22,10 +22,22 @@ Mainly we use it for multiple selection.
 ```
 
 
-### How do you create and insert a new element into the DOM?
+### 2. How do you create and insert a new element into the DOM?
 ```js
 • For creating a new element using js we use document.createElement() method
 it create a element in html and for inserting that element we use appendChild(), preprend() etc
 basically these methods are used to insert the element in the html document.
 ```
+
+
+### 3. What is Event Bubbling? And how does it work?
+```js
+• Event bubbling is a concept in javascript when we add an event listener any element,
+first runs even capturing phase, than event start event bubbling phase.
+Event bubbling is like when we add event listener in any element and tigger that event,
+the event will go to the parent element and then to the grandparent element and so on until it reache the root element.
+It is how bubbling works.
+mainly when bubbling happenes, it just jumps to the parent element and so on until it reache the root element.
+```
+
 
