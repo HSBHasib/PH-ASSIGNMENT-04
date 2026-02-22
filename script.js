@@ -19,14 +19,16 @@ function countCalculator() {
     InterviewCount.textContent = inverviewLists.length;
     RejectedCount.textContent = rejectedLists.length;
 
+    console.log(totalCount.textContent);
+
     if (currentTab === 'all') {
         jobCountText.textContent = allCards.children.length;
     } else {
-        // if no cards are available in the filtered view, show 0 count
         if (filterdCards.querySelector('#no-jobs-msg')) {
             jobCountText.textContent = 0;
         } else {
-            jobCountText.textContent = filterdCards.children.length;
+            jobCountText.textContent = `${filterdCards.children.length} of ${allCards.children.length}`;
+            
         }
     }
 }
