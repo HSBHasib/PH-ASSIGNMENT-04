@@ -2,7 +2,8 @@
 
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 ```js
-• Genarally, these 4 methods are do same work to select any element from html document but these are used in different types of selection. 
+• Genarally, these 4 methods are do same work to select any element from html document
+but these are used in different types of selection. 
 
 • GetElementById is used to select a single element in the html document based on id attribute.
 it is used to select id which is unique name in html document.
@@ -19,3 +20,12 @@ One Important thing is that querySelector is just select the first element that 
 it return a node list of all the elements that we selected based on the name.
 Mainly we use it for multiple selection.
 ```
+
+
+### How do you create and insert a new element into the DOM?
+```js
+• For creating a new element using js we use document.createElement() method
+it create a element in html and for inserting that element we use appendChild(), preprend() etc
+basically these methods are used to insert the element in the html document.
+```
+
