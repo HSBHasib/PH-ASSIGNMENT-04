@@ -112,7 +112,7 @@ mainContainer.addEventListener('click', function(dets) {
             updateStatusInAll(jobTitle, "INTERVIEW");
         } else {
             inverviewLists = inverviewLists.filter(item => item.jobTitle !== jobTitle);
-            updateStatusInAll(jobTitle, "Not Applied");
+            updateStatusInAll(jobTitle, "NOT APPLIED");
         }
         refreshUI();
     }
@@ -130,7 +130,7 @@ mainContainer.addEventListener('click', function(dets) {
             updateStatusInAll(jobTitle, "REJECTED");
         } else {
             rejectedLists = rejectedLists.filter(item => item.jobTitle !== jobTitle);
-            updateStatusInAll(jobTitle, "Not Applied");
+            updateStatusInAll(jobTitle, "NOT APPLIED");
         }
         refreshUI();
     }
