@@ -20,6 +20,14 @@ function countCalculator() {
     RejectedCount.textContent = rejectedLists.length;
 
     console.log(totalCount.textContent);
+    
+    const mainNoJobsMsg = document.querySelector('main > #no-jobs-msg');
+    if (allCards.children.length === 0) {
+        mainNoJobsMsg.classList.remove('hidden');
+    } else {
+        mainNoJobsMsg.classList.add('hidden');
+    }
+
 
     if (currentTab === 'all') {
         jobCountText.textContent = allCards.children.length;
