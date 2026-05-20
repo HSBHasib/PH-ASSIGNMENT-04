@@ -47,7 +47,7 @@ JobTracker Dashboard is a lightweight, logic driven web application designed to 
 git clone [ https://github.com/HSBHasib/Job-Tracker-Dashboard-A4.git ]
 
 # Go into the project folder
-cd Job-Tracker-Dashboard
+cd Job-Tracker-Dashboard-A4
 
 # Run the project
 Run via Live Server extension in VS Code or open the hosted live link directly!
