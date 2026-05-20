@@ -11,7 +11,7 @@ JobTracker Dashboard is a lightweight, logic driven web application designed to 
 
 ## 🔗 Links
 
-* 🌐 **Live Site:** [View Live Site](https://vercel.com/hsbhasi)
+* 🌐 **Live Site:** [View Live Site](https://job-tracker-dashboard-azure.vercel.app/)
 * 💻 **GitHub Repo:** [View Github Repo](https://github.com/HSBHasib/Job-Tracker-Dashboard-A4)
 
 ## 🛠️ Technologies Used
