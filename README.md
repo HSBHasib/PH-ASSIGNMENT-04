@@ -5,7 +5,7 @@ Track your application pipeline, toggle candidate statuses seamlessly, and manag
 
 ## About the Project
 
-JobTracker Dashboard is a lightweight, logic-driven web application designed to optimize the job hunt process. It allows users to view a comprehensive catalog of active job openings and dynamically sort them into dedicated pipelines (All, Interview, and Rejected) with real time status toggling. Built with a responsive layout inspired by professional Figma components, it eliminates messy spreadsheet tracking and brings your recruitment workflow to life.
+JobTracker Dashboard is a lightweight, logic driven web application designed to optimize the job hunt process. It allows users to view a comprehensive catalog of active job openings and dynamically sort them into dedicated pipelines (All, Interview, and Rejected) with real time status toggling. Built with a responsive layout inspired by professional Figma components, it eliminates messy spreadsheet tracking and brings your recruitment workflow to life.
 
 ---
 
@@ -32,11 +32,11 @@ JobTracker Dashboard is a lightweight, logic-driven web application designed to 
 * Includes separate tabs for **All**, **Interview**, and **Rejected**. 
 * Advanced conditional rendering displays a beautiful "No Jobs Available" state with illustrative warnings when a pipeline is empty.
 
-### 🔄 Two-Way Status Switching
-* Supports full multi-state toggling. Clicking "Interview" or "Rejected" instantly updates the job status, moves the card to its respective tab view, and recalculates dashboard counter analytics without page reloads.
+### 🔄 Two Way Status Switching
+* Supports full multi state toggling. Clicking "Interview" or "Rejected" instantly updates the job status, moves the card to its respective tab view, and recalculates dashboard counter analytics without page reloads.
 
 ### ❌ Smart Card Deletion (CRUD)
-* Features an absolute removal system. Clicking the delete icon completely purges the card from the active UI, auto-deducting its metrics from both the dashboard widgets and tab totals.
+* Features an absolute removal system. Clicking the delete icon completely purges the card from the active UI, auto deducting its metrics from both the dashboard widgets and tab totals.
 
 ---
 
