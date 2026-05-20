@@ -12,7 +12,7 @@ JobTracker Dashboard is a lightweight, logic driven web application designed to 
 ## 🔗 Links
 
 * 🌐 **Live Site:** [View Live Site](https://vercel.com/hsbhasi)
-* 💻 **GitHub Repo:** [View Github Repo](https://github.com/HSBHasib/Job-Dashboard)
+* 💻 **GitHub Repo:** [View Github Repo](https://github.com/HSBHasib/Job-Tracker-Dashboard-A4)
 
 ## 🛠️ Technologies Used
 
@@ -44,7 +44,7 @@ JobTracker Dashboard is a lightweight, logic driven web application designed to 
 
 ```bash
 # Clone the repository
-git clone [https://github.com/HSBHasib/Job-Dashboard.git](https://github.com/HSBHasib/Job-Dashboard.git)
+git clone [ https://github.com/HSBHasib/Job-Tracker-Dashboard-A4.git ]
 
 # Go into the project folder
 cd Job-Tracker-Dashboard
